@@ -1,0 +1,17 @@
+{
+	"name": "LS_AzureSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "db-demo-coldliquidflame.database.windows.net",
+			"database": "free-sql-db-4858971",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "demo",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDE3MDUwMjVFLTk0NUYtNEQyRC1COEZCLTMyMTg1QTlDNUMzQl85ZDkzMTI4Ny0zYzE3LTRhY2YtOWNkNS1mMDVlZTM0ODAwNGQiDQp9"
+		}
+	}
+}
